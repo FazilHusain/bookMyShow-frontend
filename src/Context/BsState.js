@@ -22,7 +22,7 @@ const BsState = (props) => {
 
   const handlePostBooking = async () => {
     const res = await fetch(
-      `https://bookmyshow-backend-00ak.onrender.com/api/booking`,
+      `https://bookmyshow-backend-1-i72x.onrender.com/api/booking`,
       {
         method: "POST",
         headers: {
@@ -56,7 +56,7 @@ const BsState = (props) => {
   
   const handleGetBooking = async() => {
     const response = await fetch(
-      `https://bookmyshow-backend-00ak.onrender.com/api/booking`,
+      `https://bookmyshow-backend-1-i72x.onrender.com/api/booking`,
       {
         method: "GET",
       }
