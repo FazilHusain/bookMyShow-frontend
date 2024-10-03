@@ -2,7 +2,6 @@ import React, { useContext } from 'react'
 import { slots } from '../data'
 import RadioComponent from './RadioComponent'
 import '../Css/TimeSchedule.css';
-import BsState from '../Context/BsState';
 import BsContext from '../Context/BsContext';
 const TimeSchedule = () => {
   const context = useContext(BsContext);
