@@ -1,0 +1,45 @@
+.container{
+    width: 80%;
+    margin: 30px auto;
+    padding: 30px 30px 0px 30px;
+    background-color: #f0eaea;
+    color: #fff;
+    box-shadow:  5px 5px 5px rgba(199,207,224,0.6);
+    border-radius: 5px;
+}
+
+.wrapper{
+ display: flex;
+ flex-grow: 0;
+ overflow: visible;
+}
+
+.select_movie_component{
+     flex-grow: 1;
+}
+.last_booking_details_container{
+
+}
+
+.timer_seats_container{
+
+}
+
+.BN_btn{
+    padding: 10px;
+    border: none;
+    margin-top: 20px;
+    left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(5,5,5);
+    font-weight: bold;
+    background-color: rgb(238,239,241);
+    border: 2px solid rgb(10,10,10);
+    position: relative;
+}
+
+.BN_btn:hover{
+    background-color: rgba(255,0,55,664);
+    color: #fff;
+}
